@@ -1,0 +1,120 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: white;
+    color: black;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 500;
+    justify-content:flex-start;
+    text-align: center;
+    height: 295px;
+}
+
+h2{
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+p{
+    color: white;
+}
+img:hover{
+    width: 230px;
+    height: 230px;
+    transition: 3s;
+    opacity: 1;
+
+}
+.destaque {
+    background-color: rgb(7, 7, 6);
+    color: white;
+    padding: 2px 5px;
+   
+}
+.destaque:hover{
+    padding: 10px 48px;
+    background-color:rgb(7, 3, 244);
+    color:rgb(248, 1, 1);
+    transition: 3s;
+}
+
+div{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    gap: 30px;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    opacity: 0.7;
+    border-radius: 40PX;
+    box-shadow: 4px 4px 2px black;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.guguumatetres {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+
+
+}
+.guguquatroaseis {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  
+
+}
+.guguseteanove {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ 
+   
+}
+.musica{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    
+}
